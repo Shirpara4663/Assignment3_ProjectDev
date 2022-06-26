@@ -7,5 +7,3 @@
 4) made the changes to this file to commit and create pull request
 
 5) made the changes to local machine for the main branch
-
-6) made the changes to the online readme file and fetch it to local
