@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>ICC - Contact Us</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+  	<img src="../images/ICCLogo.png" alt="ICC : International Cricket Council" width="85">
+   	<h2>ICC</h2>
+   	<h3>International Cricket Council</h3>
+  </header>
+  <nav id="nav_menu">
+  	<ul>
+    	<li><a href="../index.html" title="Home"><i class="fa fa-home"></i> Home</a></li>
+    	<li><a href="teams.html"> <i class="fa fa-group"></i> Teams</a></li>
+    	<li><a href="format.html"> <i class="fa fa-cubes"></i> Format</a>
+            <ul>
+                <li><a href="format.html#TestSection">Test</a></li>
+                <li><a href="format.html#ODISection">ODI</a></li>
+                <li><a href="format.html#T20Section">T-20</a></li>
+            </ul>
+        </li>
+    	<li><a href="ranking.html"> <i class="fa fa-list-ol"></i> Rankings</a>
+            <ul>
+                <li>
+                    <a href="ranking.html#BattingRanking">Batting</a>
+                    <ul>
+                        <li><a href="ranking.html#TestBattingRanking">Test</a></li>
+                        <li><a href="ranking.html#ODIBattingRanking">ODI</a></li>
+                        <li><a href="ranking.html#T20BattingRanking">T-20</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="ranking.html#BowlingRanking">Bowling</a>
+                    <ul>
+                        <li><a href="ranking.html#TestBowlingRanking">Test</a></li>
+                        <li><a href="ranking.html#ODIBowlingRanking">ODI</a></li>
+                        <li><a href="ranking.html#T20BowlingRanking">T-20</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="ranking.html#AllrounderRanking">All Rounder</a>
+                    <ul>
+                        <li><a href="ranking.html#TestAllrounderRanking">Test</a></li>
+                        <li><a href="ranking.html#ODIAllrounderRanking">ODI</a></li>
+                        <li><a href="ranking.html#T20AllrounderRanking">T-20</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    	<li><a href="contact.html"> <i class="fa fa-envelope"></i> Contact Us</a></li>
+	</ul>
+  </nav>
+  <main>
+	<aside id="nav_list_aside">
+		<nav id="nav_list">
+			<ul>
+                <li>
+                    <a title="Home" href="../index.html">
+                        <i class="fa fa-home" ></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a title="Teams" href="teams.html">
+                        <i class="fa fa-group" title="Teams"></i>
+                        Teams
+                    </a>
+                </li>
+                <li>
+                    <a title="Format" href="format.html">
+                        <i class="fa fa-cubes" title="Cricket Format"></i>
+                        Format
+                    </a>
+                </li>
+                <li>
+                    <a title="Ranking" href="ranking.html">
+                        <i class="fa fa-list-ol" title="ICC Ranking"></i>
+                        Ranking
+                    </a>
+                </li>
+                <li>
+                    <a title="Contact Us" href="contact.html">
+                        <i class="fa fa-envelope" title="Cotact Us"></i>
+                        Contact Us
+                    </a>
+                </li>
+			</ul>
+		</nav>
+	</aside>
+	<section>
+        <h2>Contact Us</h2>
+        <br>
+        <fieldset>
+            <legend>Contact Us</legend>
+            <form action="#" method="POST">
+                <article id="productphoto">
+                    <label for="FName">First Name <span class="mandatory">This field is mandotory</span></label>
+                    <input type="text" id="txtFName" name="txtFName" placeholder="First Name" required>
+
+                    <label for="LName">Last Name <span class="mandatory">This field is mandotory</span></label>
+                    <input type="text" id="txtLName" name="txtLName" placeholder="Last Name" required>
+
+                    <label for="AptNumber">Apt. Number / Unit Number <span class="mandatory">This field is mandotory</span></label>
+                    <input type="text" id="txtAptNumber" name="txtAptNumber" placeholder="Apt. / Unit Number">
+
+                    <label for="Street">Street <span class="mandatory">This field is mandotory</span></label>
+                    <input type="text" id="txtStreet" name="txtStreet" placeholder="Street" required>
+
+                    <label for="City">City <span class="mandatory">This field is mandotory</span></label>
+                    <input type="text" id="txtCity" name="txtCity" placeholder="City Name" required>
+                    
+                    <label for="Pincode">Pincode <span class="mandatory">This field is mandotory</span></label>
+                    <input type="text" id="txtPincode" name="txtPincode" placeholder="Pincode" required>
+                    
+                    <label for="Email">Email <span class="mandatory">This field is mandotory</span></label>
+                    <input type="email" id="txtEmail" name="txtEmail" placeholder="Email Address" required>
+                    
+                    <label for="BestPlayer">Best Player</label>
+                    <select id="txtBestPlayer" name="txtBestPlayer">
+                        <option value="" disabled selected>Select Best Player</option>
+                        <optgroup label="Test">
+                            <option value="Kane Williamson">Kane Williamson</option>
+                            <option value="Steven Smith">Steven Smith</option>
+                            <option value="Marnus Labuschagne">Marnus Labuschagne</option>
+                        </optgroup>
+                        <optgroup label="ODI">
+                            <option value="Virat Kohli">Virat Kohli</option>
+                            <option value="Rohit Sharma">Rohit Sharma</option>
+                            <option value="Ross Taylor">Ross Taylor</option>
+                        </optgroup>
+                        <optgroup label="T-20">
+                            <option value="Virat Kohli"> Virat Kohli</option>
+                            <option value="KL Rahul">KL Rahul</option>
+                            <option value="Martin Guptil"> Martin Guptil</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="FavouritePlayer">Favourite Player</label>
+                    <select id="txtFavouritePlayer" name="txtFavouritePlayer" multiple>
+                        <option value="Brendon McCullum">Brendon McCullum</option>
+                        <option value="KL Rahul">KL Rahul</option>
+                        <option value="Trent Bault">Trent Bault</option>
+                        <option value="MS Dhoni">MS Dhoni</option>
+                        <option value="Suresh Raina">Suresh Raina</option>
+                    </select>
+
+                    <label for="subject">Your Comments</label>
+                    <textarea id="txtQuery" name="txtQuery" placeholder="Comments"></textarea>
+                    <input type="submit" value="Submit" name="btnSubmitQuery" id="btnSubmitQuery">
+                    <input type="reset" value="Reset" name="btnResetForm" id="btnResetForm">
+                
+                </article>
+                <article id="productdescription">
+                    <label for="Field">Field</label> <br>
+                    <input type="checkbox" id="cbBatting" name="cbTeam" checked value="Batting">
+                    <label for="cbBatting"> Batting</label><br>
+                    <input type="checkbox" id="cbBowling" name="cbTeam" value="Bowling">
+                    <label for="cbBowling"> Bowling</label><br>
+                    <input type="checkbox" id="cbAllRounder" name="cbTeam" value="All Rounder">
+                    <label for="cbAllRounder"> All Rounder</label><br>
+                    <input type="checkbox" id="cbFormat" name="cbTeam" value="Format">
+                    <label for="cbFormat"> Format</label><br><br>
+                    <br>
+                    <p>Gender</p>
+                    <input type="radio" id="male" name="rbGender" checked value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="rbGender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="rbGender" value="other">
+                    <label for="other">Other</label>
+                </article>
+                
+
+                
+            </form>
+        </fieldset>
+        
+	</section>
+    <article id="recommendationproducts">
+        <h4></h4>
+        <ul>
+            <li>
+                <img width="100" alt="Cricket World Cup 2023 Image" title="Upcoming Cricket World Cup" height="75" src="../images/World-cup-2023.png"> <br> <a href="UpComingCWC2023.html" >Upcoming CWCup 2023 </a>
+            </li>
+            <li>
+                <br>
+                <img width="100" height="75" alt="Brendon McCullum Image" title="Brendon Barrie McCullum" src="../images/brendon-mccullum.jfif"> <br> <a href="BBM.html">Brendon McCullum</a>
+            </li>
+            <li>
+                <br>
+                <img width="100" height="75" alt="Motera Stadium Image" title="Motera Stadium" src="../images/motera-stadium.jpg"> <br> <a href="MoteraStadium.html">Motera Stadium</a>
+            </li>
+            <li>
+                <br>
+                <img width="100" height="75" alt="World Test Championship Image" title="ICC World Test Championship Final Ind vs New Zealand" src="../images/WTChampionship.jpg"> <br> <a href="https://www.icc-cricket.com/">World Test Championship Final</a>
+            </li>
+        </ul>
+    </article>
+  </main>
+
+  <footer>
+	<p>&copy; 2021 Nikunjkumar Savani</p>
+  </footer>
+</body>
+</html>
+
+<script type="text/javascript">
+    document.getElementById("txtFName").focus();
+</script>
