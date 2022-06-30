@@ -3,3 +3,7 @@
 2)To see the webpages open the html file in browser using local path
 -------
 3)Made the changes to this branch and commit to create pull request
+
+4) made the changes to this file to commit and create pull request
+
+5) made the changes to local machine for the main branch
